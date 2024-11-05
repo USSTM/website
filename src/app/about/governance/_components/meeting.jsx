@@ -16,7 +16,7 @@ export default function Meeting() {
                         documents located in the Governing Documents section of this page. Any motions discussed in the meeting may use any of these documents as reference.
                     </p>
                     <p className="py-2">
-                        For more information about General Meetings, please refer to our <Link href="/about/meetings">Meetings Page</Link>.
+                        For more information about General Meetings, please refer to our <Link href="/website/about/meetings">Meetings Page</Link>.
                     </p>
                 </section>
             </div>

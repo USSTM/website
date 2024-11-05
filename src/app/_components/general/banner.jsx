@@ -7,7 +7,7 @@ import './banner.css';
 export default function Banner() {
     const [shown, setShown] = useState(true);
     const banner = <span>
-            Orientation is around the corner! Check out the details on the <Link href="/events/orientation">orientation page</Link>!
+            Orientation is around the corner! Check out the details on the <Link href="/website/events/orientation">orientation page</Link>!
         </span>;
     return (
         shown && <div className="blink banner shadow-md w-full bg-highlight-blue text-foreground flex items-center justify-center">

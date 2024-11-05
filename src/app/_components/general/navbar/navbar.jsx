@@ -23,7 +23,7 @@ export default function Navbar() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch('/data/navbar/nav-items.json');
+        const res = await fetch('/website/data/navbar/nav-items.json');
         const data = await res.json();
         setNavItems(data);
       } catch (error) {
@@ -79,7 +79,7 @@ export default function Navbar() {
               setExpanded(false);
             }}
           >
-            <Link href="/">
+            <Link href="/website/">
               <Image
                 overrideSrc="/website/icons/usstm-logo.png"
                 alt="The USSTM Logo"

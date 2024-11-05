@@ -17,7 +17,7 @@ export default function Carousel() {
 
     const fetchData = async () => {
         try {
-            const response = await fetch('/data/events/yearbook-gallery/yearbook-images.json');
+            const response = await fetch('/website/data/events/yearbook-gallery/yearbook-images.json');
             const data = await response.json();
             setYearbookData(data);
         } catch (err) {

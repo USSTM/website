@@ -9,7 +9,7 @@ export default function Elections() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const res = await fetch('/data/community/elections/elections-results.json');
+                const res = await fetch('/website/data/community/elections/elections-results.json');
                 const data = await res.json();
                 setElectionsResults(data);
             } catch (error) {
@@ -28,7 +28,7 @@ export default function Elections() {
                     <p className="block py-2">
                         Each year, the Undergrad Science Society of Toronto Metropolitan (USSTM) conducts an election cycle to select the next Board of Directors. The
                         Board plays a pivotal role in steering the direction of USSTM and ensuring its continued success. The responsibilities of the USSTM team are
-                        outlined in detail in the By-Laws and Constitution, accessible at our <Link id="btext" href="/about/governance/">governance page</Link>.
+                        outlined in detail in the By-Laws and Constitution, accessible at our <Link id="btext" href="/website/about/governance/">governance page</Link>.
                     </p>
                     <p>
                         Elections are run by the Chief Returning Officer (CRO), who is
@@ -38,11 +38,11 @@ export default function Elections() {
                         at least 24 hours before. You may send someone in your place to the &quot;All Candidates
                         Meeting&quot; but you must tell the CRO who will be attending in your
                         place 24 hours in advance.
-                        Please read the Election Policies that can be found <a href="/assets/governance/election-procedures.pdf" target="_blank">here</a>.
+                        Please read the Election Policies that can be found <a href="/website/assets/governance/election-procedures.pdf" target="_blank">here</a>.
                     </p>
                     <p className='block py-2'>
                         It is your responsibility to know this document as well as the Constitution and By-Laws
-                        (available in our <Link id="btext" href="/about/governance/">governance page</Link>), especially if you are elected.
+                        (available in our <Link id="btext" href="/website/about/governance/">governance page</Link>), especially if you are elected.
                     </p>
                 </div>
 
@@ -110,7 +110,7 @@ export default function Elections() {
                             </p>
                             <p className="px-2">
                                 Note: This is a general overview. For detailed rules, refer to the
-                                comprehensive <a href="/assets/governance/election-procedures.pdf" target="_blank">Election Procedures Document</a>.
+                                comprehensive <a href="/website/assets/governance/election-procedures.pdf" target="_blank">Election Procedures Document</a>.
                             </p>
                         </div>
                     </div>
@@ -123,7 +123,7 @@ export default function Elections() {
                             <p>
                                 If you&apos;re considering applying to the USSTM but don&apos;t want to be in an elected
                                 position, we have several committee positions that would be great
-                                for you! For more information, visit our <Link href="/about/your-team/">Your Team page</Link>.
+                                for you! For more information, visit our <Link href="/website/about/your-team/">Your Team page</Link>.
                             </p>
                         </div>
                     </div>

@@ -13,17 +13,17 @@ export default function Elections2024() {
                     <p className="block py-2">
                         Elections for the 2024-2025 board is now done! If you have any elections related questions, 
                         please contact the Chief Returning Officer at <a href='mailto:cro@usstm.ca' target="_blank">cro@usstm.ca</a>. To 
-                        see the candidates who ran, visit our <Link href={'/elections2024/candidates'}>candidates page</Link>!
+                        see the candidates who ran, visit our <Link href={'/website/elections2024/candidates'}>candidates page</Link>!
                         To see the results, please visit our <a href="https://www.instagram.com/usstorontomet/" target="_blank">instagram page</a>.
                     </p>
                     <p className="block py-2">
-                        Please visit our <Link href="/about/governance">governance page</Link> for more details about
+                        Please visit our <Link href="/website/about/governance">governance page</Link> for more details about
                         our election procedures annd the roles and responsibilities of the Board of Directors.
                     </p>
                     <div className='border-2 border-highlight-dark w-3/4 lg:w-1/2 xl:w-1/3 mx-auto text-lg lg:text-xl xl:text-2xl mt-12 font-semibold flex justify-center underline items-center divide-x hover:scale-105 hover:text-background hover:bg-highlight-dark ease-in-out duration-200'>
                         <button id={'candidates-button'} className={'p-4'}>
                             <Link
-                                href={'/elections2024/candidates'}
+                                href={'/website/elections2024/candidates'}
                                 target={'_blank'}
                             >
                                 Click here to see the candidates who ran!
@@ -41,7 +41,7 @@ export default function Elections2024() {
                         <div className="px-4 md:px-0">
                             <p className="py-2 xl:text-xl">
                                 The election results are out and are to be ratified at our AGM on Monday, March 25th, 2024.
-                                Please check our <Link href='/about/meetings'>Meetings Page</Link> to 
+                                Please check our <Link href='/website/about/meetings'>Meetings Page</Link> to 
                                 learn more about the AGM and other upcoming meetings.
                             </p>
                         </div>

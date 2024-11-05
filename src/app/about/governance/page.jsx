@@ -15,7 +15,7 @@ export default function Governance() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('/data/about/governance/gov-docs.json');
+                const response = await fetch('/website/data/about/governance/gov-docs.json');
                 const data = await response.json();
                 setDocuments(data);
             } catch (error) {
@@ -63,7 +63,7 @@ export default function Governance() {
                             {documents.map((document) => (
                                 <div key={document.id} className="flex flex-col items-center space-y-4 > * + *">
                                     <a
-                                        href={`/assets/governance/${document.pdf}`}
+                                        href={`/website/assets/governance/${document.pdf}`}
                                         target="_blank"
                                     >
                                         <button>

@@ -9,7 +9,7 @@ export default function FAQ() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/data/faq/faq-db.json');
+        const response = await fetch('/website/data/faq/faq-db.json');
         const data = await response.json();
         setFaqItems(data.slice(0, 8));
       } catch (error) {
@@ -32,7 +32,7 @@ export default function FAQ() {
         <FAQItem key={faqItem.id} props={faqItem} />
       ))}
       <div id="linkToFAQ" className="w-full flex justify-center items-center py-2">
-        <Link href="/faq" className="text-highlight text-lg lg:text-xl hover:underline text-center">View More</Link>
+        <Link href="/website/faq" className="text-highlight text-lg lg:text-xl hover:underline text-center">View More</Link>
       </div>
     </section>
   );

@@ -22,7 +22,7 @@ export default function Membership() {
 
                 </p>
                 <p className="pb-2">
-                    For information on applying to the USSTM for funding, please visit our <Link href="/finances/budget">Budget Page</Link>. More information
+                    For information on applying to the USSTM for funding, please visit our <Link href="/website/finances/budget">Budget Page</Link>. More information
                     regarding the previous year&apos;s budget can be found in the following links:
                 </p>
             </section>

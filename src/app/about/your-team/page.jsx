@@ -10,7 +10,7 @@ export default function YourTeam() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const res = await fetch('/data/about/your-team/your-team.json');
+                const res = await fetch('/website/data/about/your-team/your-team.json');
                 const data = await res.json();
                 setYourTeamData(data);
             } catch (error) {
@@ -42,7 +42,7 @@ export default function YourTeam() {
                                     {committee['committee-description']}
                                 </p>
 
-                                <a href={`/about/your-team/${committee.path}`}>
+                                <a href={`/website/about/your-team/${committee.path}`}>
                                     <button
                                         className="w-full box-border bg-highlight-dark text-background py-3 my-4 rounded-sm font-medium hover:text-highlight-dark hover:bg-background hover:border hover:border-highlight-dark hover:ease-in-out duration-300"
                                     >
