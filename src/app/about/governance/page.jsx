@@ -37,7 +37,7 @@ export default function Governance() {
                             that drives our mission forward.
                         </p>
                         <Image
-                            overrideSrc="/images/about/governance/structure.png"
+                            overrideSrc="/website/images/about/governance/structure.png"
                             alt="USSTM Structure"
                             width={3000}
                             height={3000}

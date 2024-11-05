@@ -54,7 +54,7 @@ export default function GroupsUnions() {
                 >
                     <div style={{ display: 'flex', alignItems: 'end', justifyContent: 'end' }}>
                         <Image
-                            overrideSrc={`/images/community/sg-logos/${group['group-logo']}`}
+                            overrideSrc={`/website/images/community/sg-logos/${group['group-logo']}`}
                             alt={group['group-name']}
                             width={500}
                             height={500}
